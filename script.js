@@ -30,7 +30,7 @@ while (num > 0) {
   }
 }
 }
-console.log(ans);
+return ans;
 }
 
 // Test the function
