@@ -1,5 +1,5 @@
 function convertToRoman(num) {
-  	const obj = {
+  	const obj = [
       0:['M',1000], 
 	900:['CM', 900],
       1:['D', 500],
@@ -13,7 +13,7 @@ function convertToRoman(num) {
 	6:['IV', 4],
       7:['I', 1],
 		
-    };
+    ];
 // 	var ans="";
 // 	while(num!==0){
 // 		for(let j of obj){
@@ -36,8 +36,9 @@ function convertToRoman(num) {
 var  ans = "";
   
   // Loop through the Roman numerals and subtract the values from num
-  for (let [roman, value] of obj) {
-    while (num >= value) {
+  //for (let [roman, value] of obj) {
+    for(let i=0;i<obj.length;i++)
+	while (num >= value) {
       ans += roman;
       num -= value;
     }
