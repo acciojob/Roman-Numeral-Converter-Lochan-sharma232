@@ -34,7 +34,7 @@ return ans;
 }
 
 // Test the function
-//console.log(convertToRoman(400));
+console.log(convertToRoman(400));
 
 
 // do not edit below this line
