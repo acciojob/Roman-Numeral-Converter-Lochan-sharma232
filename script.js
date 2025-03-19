@@ -19,7 +19,7 @@ function convertToRoman(num) {
 var  ans = "";
 
 // Loop through the Roman numerals and subtract the values from num
-  //for(let i=0;i<obj.length;i++)
+  
 while (num > 0) {
   for (let i in  obj) {
     let demo =obj[i];
